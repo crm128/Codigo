@@ -21,7 +21,7 @@ El codigo esta dividido en:
 - `pages/1_Simulacion_TAC.py`: UI para arranque sin control.
 - `pages/3_Control_PID.py`: UI para simulacion PID y comparacion de sintonia.
 
-## Flujo de datos (alto nivel)
+## Flujo de datos
 
 1. El usuario carga parametros en la UI de Streamlit.
 2. La UI construye objetos `ReactorConditions`, `SimulationConfig` y, en PID, `PidConfig`.
