@@ -17,7 +17,6 @@ El codigo esta dividido en:
 - `app_core/controller_pid.py`: funciones puras de control (PID y rate limit).
 - `app_core/simulate.py`: orquestacion de integracion numerica en lazo abierto y cerrado.
 - `app_core/metrics.py`: metricas de desempeno (`IAE_seg, IAE_fin, ΔT_max, Mp, TVu — ver definiciones en § 4.6 de la tesis).`
-- `app_core/identification.py`: utilidades para preparacion de datos de identificacion por escalon.
 - `pages/1_Simulacion_TAC.py`: UI para arranque sin control.
 - `pages/3_Control_PID.py`: UI para simulacion PID y comparacion de sintonia.
 
